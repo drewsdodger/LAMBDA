@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-image: url(img/bg.jpg);
+}
+.jobs{
+    background-color: white;
+    height: 50px;
+    width: 200px;
+    .code{
+        background-image: url(img/code.gif);
+        height: 50px;
+        width: 200px;
+    }
+    .Hardware{
+        background-image: url(img/linux.BMP);
+        height: 50px;
+        width: 200px;
+    }
+    .Modifying{
+        background-image: url(img/Modifing.BMP);
+        height: 50px;
+        width: 200px;
+    }
+    .Photoshop{
+        background-image: url(img/photoshop.jpeg);
+        height: 50px;
+        width: 200px;
+    }
+    #Link{
+        color: white;
+    }
+    .pop{
+        background-color: darkslategrey;
+        height: 200px;
+        width: 198px;
+        outline: 2px solid;
+        outline-color: darkcyan;
+        p{
+            color:white;
+        }
+    }
+    .iframeDiv{
+        width: 800px;
+        height: 800px;
+        position: fixed;
+        left: 225px;
+    }
+}
+
+</style>
+<body>
+
+    <div class="jobs">
+        <div class="iframeDiv">
+            <iframe height="500" width="1000" src="jobs/Blank.htm" name="job"></iframe>
+        </div>
+        <a href="jobs/Code.htm" target="job"><div class="code">
+            <center><h1 id="Link">Code</h1></center>
+        </div></a>
+        <a href="jobs/Hardware.htm" target="job"><div class="Hardware">
+            <center><h1 id="Link">Hardware</h1></center>
+        </div></a>
+        <a href="jobs/Modifying.htm" target="job"><div class="Modifying">
+            <center><h1 id="Link">Modifying</h1></center>
+        </div></a>
+        <a href="jobs/Photoshop.htm" target="job"><div class="Photoshop">
+            <center><h1 id="Link">Photoshop</h1></center>
+        </div></a>
+        <br>
+        <div class="pop">
+            <center><h3 id="Link">Please consider my services!</h3>
+            <p>I'll give the best possible quality services to anyone who purchases, and for (what I consider) amazing prices <3</p></center>
+        </div>
+    </div>
+
+    </div>
+</body>
+</html>
